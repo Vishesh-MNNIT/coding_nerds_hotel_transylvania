@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hotel Castle Inn</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body { font-family: Arial, Helvetica, sans-serif; margin: 0; } html {
+      box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
+      .column { float: left; width: 33.3%; margin-bottom: 16px; padding: 0 8px;
+      } .card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); margin: 8px; }
+      .about-section { font-family: "Roboto"; padding: 80px; text-align: auto;
+      background-color: #474e5d; color: white; height: 400px; width: 60%; }
+      .container { padding: 0 16px; } .container::after, .row::after { content:
+      ""; clear: both; display: table; } .title { color: grey; } .button {
+      border: none; outline: 0; display: inline-block; padding: 8px; color:
+      white; background-color: #000; text-align: center; cursor: pointer; width:
+      100%; } .button:hover { background-color: #555; } @media screen and
+      (max-width: 650px) { .column { width: 100%; display: block; } } .image {
+      float: right; height: 400px; width: 40%; padding: 10px; } .front {
+      background-color: grey; } .hotel { overflow: auto; } #hotel-name {
+      text-align: center; }
+    </style>
+  </head>
+  <body>
+    <div class="navi">
+      <nav>
+        <ul>
+          <li class="logo">
+            <img
+              src="aboutus/logo1.jpg"
+              alt="logo"
+              style="height: 70px; width: 120px"
+            />
+          </li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="ABOUTUS.HTML">About Us</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+          <li><a href="GALLERY.HTML">Gallery</a></li>
+          <li><a href="signup.html">Sign in</a></li>
+          <li class="booking"><a href=""></a><em>BOOK NOW !!</em></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="front">
+      <img src="aboutus/about-patna-01.jpg" alt="our image" class="image" />
+      <div class="about-section">
+        <h1 id="hotel-name">HOTEL CASTLE INN</h1>
+        <p class="hotel">
+          Located in the heart of Jaipur adjacent to the city’s famous landmark
+          Hawa Mahal, Hotel Castle Inn offers easy access to business districts,
+          government offices and leisure attractions. A convenient 20-minutes
+          drive from the airport or 10-minutes from the railway station will
+          reach you at the destination. And once here, Castle Inn, a legacy
+          hotel of over forty years, will welcome you with warm hospitality as
+          well as an assurance that your stay in Jaipur is comfortable and
+          memorable.
+        </p>
+        <p>
+          Resize the browser window to see that this page is responsive by the
+          way.
+        </p>
+      </div>
+    </div>
+    <div class="team" style="padding: 15px">
+      <h2 style="text-align: center; margin: 10px">Our Team</h2>
+      <div class="row">
+        <div class="content column">
+          <div class="card">
+            <div class="container">
+              <h2 style="margin: 20px; padding: 10px">Jatin Garg</h2>
+              <p class="title" style="margin: 20px">CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p style="margin-bottom: 20px">jatin@example.com</p>
+              <p style="margin-bottom: 20px">
+                <button class="button">Contact</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content column">
+          <div class="card">
+            <div class="container">
+              <h2 style="margin: 20px; padding: 10px">Ankush Sultania</h2>
+              <p class="title" style="margin: 20px">CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p style="margin-bottom: 20px">ankush@example.com</p>
+              <p style="margin-bottom: 20px">
+                <button class="button">Contact</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content column">
+          <div class="card">
+            <div class="container">
+              <h2 style="margin: 20px; padding: 10px">Vishesh Aggarwal</h2>
+              <p class="title" style="margin: 20px">Designer</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p style="margin-bottom: 20px">vishesh@example.com</p>
+              <p style="margin-bottom: 20px">
+                <button class="button">Contact</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
